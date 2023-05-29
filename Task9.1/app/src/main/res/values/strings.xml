@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task9.1</string>
+    <string name="select_lost_found">Select Lost or Found</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_location">Location</string>
+    <string name="get_current_location">Get Current Location</string>
+    <string name="save_advert">Save</string>
+    <array name="lost_found_array">
+        <item>LOST</item>
+        <item>FOUND</item>
+    </array>
+</resources>
