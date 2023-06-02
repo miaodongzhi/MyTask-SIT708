@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start"/>
+
+    <EditText
+        android:id="@+id/edit_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Size"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_estimate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estimate"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
